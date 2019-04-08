@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Play');
+.home{
+    background: linear-gradient(rgba(50, 50, 50, 0.3), rgba(50, 50, 50, 0.9)), url("../../assets//background.jpg");
+    background-size: cover;
+    min-height: 725px;
+}
+.home-content{
+    text-align: center;
+    margin:auto;
+    padding-top: 20%;
+    color: white;
+    font-family: 'EB Garamond', serif;
+}
+.home-content h1{
+    font-family: 'Play', sans-serif;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .home-content{
+        margin:auto;
+        text-align: center;
+        padding-top: 27%;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+
+    .home-content{
+        margin:auto;
+        text-align: center;
+        padding-top: 40%;
+    }
+  }
+  
+  
+  @media (min-width: 120px) and (max-width: 480px) {
+    
+    .home-content{
+        margin:auto;
+        text-align: center;
+        padding-top: 60%;
+    }
+    
+  }

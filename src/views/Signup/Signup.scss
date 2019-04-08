@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Play');
+
+.close-btn{
+    color:red !important;
+    float: right !important;
+    cursor: pointer !important;
+}
+.user-form{
+    background: #fff !important;
+}
+.user-modal Form{
+    padding-right: 12px !important;
+    padding-left: 12px !important
+}
+.member{
+    color: #000;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+}
+.user-modal{
+    border-radius: 0px !important
+}
+.user-modal .segment{
+    border-radius: 0px !important
+}
+.modal-img{
+    background:  url("../../assets//background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (max-width: 768px) {
+    .modal-img{
+        background-size: cover;
+        height: 500px;
+        object-fit: cover
+    }
+    .user-modal{
+        width: 100% !important;
+        margin: auto !important;
+    }
+
+.user-modal .segment{
+    border: none !important;
+}
+
+  }
