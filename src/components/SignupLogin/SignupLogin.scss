@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Play');
+
+.close-btn{
+    color:red !important;
+    float: right !important;
+    cursor: pointer !important;
+}
+.user-modal Form{
+    padding-right: 12px !important;
+    padding-left: 12px !important;
+}
+.member{
+    color: #000;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+}
+.user-modal{
+    border-radius: 0px !important;
+}
+.modal-social-btns .btn{
+    padding: 5% !important;
+    margin: 7% auto !important;
+    width: 85% !important
+}
+.user-modal .segment{
+    border-radius: 0px !important
+}
+@media (max-width: 768px) {
+    .modal-social-btns{
+        height: 240px;
+        object-fit: cover;
+    }
+    .user-modal{
+        width: 100% !important;
+        margin: auto !important;
+        height: 100% !important;
+        overflow: auto !important;
+    }
+
+.user-modal .segment{
+    border: none !important;
+}
+
+  }

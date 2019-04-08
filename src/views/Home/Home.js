@@ -10,9 +10,9 @@ class Home extends Component {
                 <div className="home-content">
                     <h1 className="animated heartBeat delay-0.2s bounce">Churt</h1>
                     <p>Get your thoughts out there!</p><br></br>
-                    <Button as={Link} to="/signup" className="btn">
+                    <Button as={Link} to="/signup" className="btn" color='olive' >
                         <Icon name="signup" />Signup</Button> &nbsp;&nbsp;&nbsp;&nbsp;
-                        <Button as={Link} to="/login" className="btn">
+                        <Button as={Link} to="/login" className="btn" color='olive'>
                         <Icon name="sign-in" />Login
                     </Button>
                 </div>
