@@ -18,16 +18,16 @@
     border-radius: 0px !important;
 }
 .modal-social-btns .btn{
-    padding: 5% !important;
-    margin: 7% auto !important;
-    width: 85% !important
+    padding: 15px !important;
+    margin: 25px auto !important;
+    width: 95% !important
 }
 .user-modal .segment{
     border-radius: 0px !important
 }
 @media (max-width: 768px) {
     .modal-social-btns{
-        height: 240px;
+        height: 230px;
         object-fit: cover;
     }
     .user-modal{

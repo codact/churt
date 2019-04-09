@@ -15,13 +15,13 @@ const SignupLogin = (props) => {
                         <Grid columns={2} stackable>
                             <Grid.Column className="modal-social-btns" verticalAlign="middle">
                                 <Button color='facebook' fluid className="btn">
-                                    <Icon name='facebook' /> Facebook
+                                    <Icon name='facebook' />Sign in with Facebook
                                 </Button>
                                 <Button color='twitter' fluid className="btn">
-                                    <Icon name='twitter' /> Twitter
+                                    <Icon name='twitter' />Sign in with Twitter
                                 </Button>
                                 <Button color='google plus' fluid className="btn">
-                                    <Icon name='google' /> Google
+                                    <Icon name='google' />Sign in with Google
                                 </Button>
                             </Grid.Column>
                             <Grid.Column verticalAlign="middle">
