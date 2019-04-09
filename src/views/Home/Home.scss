@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Play');
+.home{
+    background-image: url("https://res.cloudinary.com/dw675k0f5/image/upload/v1554814251/storo/background1.jpg");
+        background-size: cover;
+     background-attachment: fixed;
+    min-height: 725px;
+}
+.home-content{
+    background: linear-gradient(rgba(231, 227, 227, 0), rgba(255, 255, 255, 0.9), rgba(226, 223, 223, 1));
+    text-align: center;
+    height: 725px;
+    width: 100%;
+    padding: auto;
+    padding-top: 20%;
+    margin:auto;
+    color: rgb(8, 8, 8);
+    font-family: 'EB Garamond', serif;
+}
+.home-content h1{
+    font-family: 'Play', sans-serif;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .home-content{
+        margin:auto;
+        text-align: center;
+        padding-top: 27%;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+
+    .home-content{
+        margin:auto;
+        text-align: center;
+        padding-top: 40%;
+    }
+  }
+  
+  
+  @media (min-width: 120px) and (max-width: 480px) {
+    
+    .home-content{
+        margin:auto;
+        text-align: center;
+        padding-top: 60%;
+    }
+    
+  }
