@@ -1,0 +1,31 @@
+.feed-message{ 
+    padding: 8% 4%;
+    margin: auto -8%;
+    background: rgb(255, 255, 255);
+    width: 235%;
+    word-wrap: break-word;
+}
+.feed-message span{
+    float: right;
+    font-size: 10px;
+}
+.feed-message #update{
+    color: rgb(78, 163, 219);
+    cursor: pointer;
+}
+.feed-message #delete{
+    color: red;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .feed-message{
+        width: 100%;
+        margin: auto;
+    }
+    .feed-message #delete{
+        font-size: 16px
+    }
+    .feed-message #update{
+        font-size: 16px
+    }
+}

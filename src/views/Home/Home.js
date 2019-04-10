@@ -14,6 +14,9 @@ class Home extends Component {
                         <Icon name="signup" />Signup</Button> &nbsp;&nbsp;&nbsp;&nbsp;
                         <Button as={Link} to="/login" className="btn" color='olive'>
                         <Icon name="sign-in" />Login
+                    </Button>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <Button as={Link} to="/feed" className="btn" color='olive'>
+                        <Icon name="compass" />Explore
                     </Button>
                 </div>
             </div>

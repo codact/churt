@@ -1,0 +1,22 @@
+.feed{
+    background:rgb(252, 250, 250);
+    width: 50%;
+    margin: 4% auto;
+    padding: 4%;
+}
+.feed Button{
+    float: right;
+}   
+@media (max-width: 768px) {
+    .feed{
+        width: 100%;
+        margin: auto;
+    }
+    .feed-message{
+        width: 100%;
+        margin: auto;
+    }
+    .message{
+        margin: auto !important;
+    }
+}
